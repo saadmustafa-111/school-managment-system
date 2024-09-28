@@ -104,7 +104,6 @@ const Login = () => {
                   Forget password
                 </a>
                 <div className="flex justify-center p-3 mt-6">
-                  <Button>Login</Button>
                   {/* <Button
                     type="submit"
                     disabled={isSubmitting}
@@ -126,6 +125,10 @@ const Login = () => {
                     <span className="px-3 text-gray-500">or</span>
                     <hr className="flex-grow border-t border-gray-400" />
                   </div>
+                  <Button className="bg-blue-400">
+                    Continue with Facebook
+                  </Button>
+                  <Button>Continue with Google</Button>
                   {/* <Button
                     variant="outlined"
                     fullWidth
